@@ -6,7 +6,29 @@ produtos = (
     ("sal", 2.99),
 )
 
-print("Produtos Disponiveis")
+# print("Produtos Disponiveis")
 
-for nome, preco in produtos:
-    print(f"{nome:.<20}: R$ {preco:.2f}")
+import random
+
+numeros = []
+for i in range(100):
+    numeros.append(random.randint(1, 100))
+
+soma = 0
+for numero in numeros:
+    soma += numero
+media = soma / len(numeros)
+
+"""print("Números gerados:")
+for numero in numeros:
+    print(numero,)"""
+
+maiores = []
+print(f"Média: {media:.2f}")
+print("Números maiores que a média:")
+for numero in numeros:
+    if numero > media:
+        # print(numero,)
+        maiores.append(numero)
+
+print(f"Numeros maiores que a media: {maiores}")
