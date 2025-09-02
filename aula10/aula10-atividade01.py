@@ -4,19 +4,19 @@
 # Data: [21/08]
 
 ### >>>  ATIVIDADE 01 - aula10 <<< ###
+
+#Criando uma matriz 3x3 
 """ 
-# Criando uma matriz 3x3
 matriz = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ]
-"""
 
-#print("Elemento (0,0):", matriz[0][0])  # Saída: 1
-#print("Elemento (2,1):", matriz[2][1])  # Saída: 8
+print("Elemento (0,0):", matriz[0][0])  # Saída: 1
+print("Elemento (2,1):", matriz[2][1])  # Saída: 8
 
-"""
+
 for linha in matriz:
     for elemento in linha:
        print(elemento, end=' ')
@@ -37,23 +37,6 @@ for i in range(3):
         linha2.append(valor)
 
     matriz_2.append(linha2)
+
+print (f"{matriz_2}")
 """
-
-#print (f"{matriz_2}")
-
-
-matriz=[]
-for i in range (4):
-    linha=[]
-    for j in range (4):
-        valor=float(input("Digite um valor entre 0 e 99: "))
-        linha.append(valor)
-    matriz.append(linha)
-    if numero % 2 == 0:
-        pares.append(numero)
-    else:
-        impares.append(numero)
-print(f"Números pares: {pares}")
-print(f"Números ímpares: {impares}")
-
-print(f"{matriz}")

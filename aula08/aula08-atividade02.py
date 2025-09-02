@@ -38,14 +38,5 @@ def fatorial(n):
         resultado = fatorial(numero)
         print(f"O fatorial de {numero} é {resultado}")
 
-       ##
-# Aula 0808 - Atividade 01
-# Nome: [Henrique]
-# Data: [19/08]
-
-### >>> QUESTÃO 1 <<< ###
-
-vetor =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(f"Vetor, {vetor}")
-
-print(f" Dados da 4a posição: {vetor[3]}")
+if __name__ == "__main__":
+    main()
